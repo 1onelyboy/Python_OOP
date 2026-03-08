@@ -4,6 +4,3 @@ def ft_garden_summary():
     print("Garden: " + garden_name)
     print(f"Plants: {number_of_plants}")
     print("Status: Growing well!")
-
-
-ft_garden_summary()

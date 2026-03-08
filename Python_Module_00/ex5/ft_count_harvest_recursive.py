@@ -9,6 +9,3 @@ def ft_count_harvest_recursive():
             print(f"Day {day}")
             f(day + 1)
     f(1)
-
-
-ft_count_harvest_recursive()
