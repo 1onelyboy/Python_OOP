@@ -21,7 +21,7 @@ def main() -> None:
     print(f"\nScore dict: {scores}")
 
     total = [scores[name] for name in scores]
-    average_score = sum(total) / len(scores)
+    average_score = sum(total) / len(scores) if scores else 0
     print(f"Score average is {round(average_score, 2)}")
 
     high_scores = {
